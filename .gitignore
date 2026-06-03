@@ -1,0 +1,51 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+.venv/
+venv/
+env/
+ENV/
+
+# Data (large files, runtime artifacts)
+data/vectorstore/
+data/reports/*.pdf
+data/reports/*.md
+data/papers/
+data/cache/
+data/*.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temp scripts (used during scaffolding)
+write_*.py
