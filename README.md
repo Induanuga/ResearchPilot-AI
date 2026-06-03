@@ -55,7 +55,7 @@ User Query
 ## Project Structure
 
 ```
-ResearchPilot-AI/
+research-assistant/
 ├── backend/
 │   ├── agents/
 │   │   ├── base_agent.py          # Abstract base with LLM + logging
@@ -105,7 +105,7 @@ ResearchPilot-AI/
 
 ```bash
 git clone <repo-url>
-cd ResearchPilot-AI
+cd research-assistant
 
 python -m venv .venv
 # Windows
