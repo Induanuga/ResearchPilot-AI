@@ -220,19 +220,6 @@ Full interactive docs: `http://localhost:8000/api/docs`
 | `BACKEND_PORT` | `8000` | FastAPI port |
 
 
-## Report Sections
-
-Every generated report contains:
-
-1. **Executive Summary** — high-level overview of findings
-2. **Research Overview** — field context and history
-3. **Key Papers** — per-paper summaries with citations
-4. **Cross-Paper Insights** — patterns and contradictions across papers
-5. **Method Comparison** — side-by-side methodology analysis
-6. **Research Trends** — temporal evolution of the field
-7. **Limitations** — aggregated limitations across papers
-8. **Future Directions** — promising next steps
-9. **References** — full APA bibliography
 
 
 ## LangGraph Pipeline State
@@ -253,4 +240,21 @@ ResearchState {
     errors               # Error accumulator
 }
 ```
+
+
+
+## Report Sections
+
+Every generated report contains:
+
+1. **Executive Summary** — high-level overview of findings
+2. **Research Overview** — field context and history
+3. **Key Papers** — per-paper summaries with citations
+4. **Cross-Paper Insights** — patterns and contradictions across papers
+5. **Method Comparison** — side-by-side methodology analysis
+6. **Research Trends** — temporal evolution of the field
+7. **Limitations** — aggregated limitations across papers
+8. **Future Directions** — promising next steps
+9. **References** — full APA bibliography
+
 
